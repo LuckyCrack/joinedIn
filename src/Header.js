@@ -12,10 +12,10 @@ function header() {
         <img src="https://img.icons8.com/fluency/48/000000/query-inner-join.png"/>
         <div className="header_search">
           <input type="text" className="search" placeholder="Search" />
-          <SearchRoundedIcon />
+          <SearchRoundedIcon className='search_icon' />
         </div>
       </div>
-      
+
       <div className="header_right">
         <HeaderOption Icon={HomeRoundedIcon} title='Home'/>
         <HeaderOption Icon={WorkRoundedIcon} title='Jobs'/>
