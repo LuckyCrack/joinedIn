@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    padding: 5px 10px;
+    background: #EEE5E9;
+    border-bottom: 2px solid #E0B4B3;
+}
+
+.header_left,
+.header_right {
+    display: flex;
+}
+
+.header_search {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header_search>input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
